@@ -29,8 +29,9 @@ pip install -r requirements.txt
 
 ### 2. Download Dataset
 Due to size constraints (100GB+), the full HDF5 dataset and pre-trained weights are hosted on Zenodo:
-> [!NOTE]
-> **The full dataset is currently being uploaded to Zenodo and the official DOI link will be updated shortly.** For preliminary testing, please use the provided `sample_data.h5` in the `data/` directory.
+> [!IMPORTANT]
+> **[Direct Link to Zenodo Repository](https://zenodo.org/record/19447128)**
+> DOI: 10.5281/zenodo.19447128
 
 Alternatively, a small sample HDF5 is provided in `data/sample_data.h5` for quick testing.
 
