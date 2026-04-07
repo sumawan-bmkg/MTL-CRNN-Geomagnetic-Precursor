@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Models (Crucial for GitHub)
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.pkl
+*.npy
+*.csv
+!data/sample_data.h5
+!earthquake_catalog_sample.csv
+
+# Logs & Outputs
+v2_performance_tradeoff_table.csv
+*.log
+experiments/
+processed_tensors*/
+raw_tensors*/
+live_sensor_data/
+audit_results/
+
+# Environments
+.venv/
+env/
+venv/
+.env
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store

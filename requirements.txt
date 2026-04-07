@@ -1,0 +1,12 @@
+torch>=2.0.0
+torchvision>=0.15.0
+efficientnet_pytorch
+h5py
+numpy
+matplotlib
+seaborn
+scikit-learn
+opencv-python
+pytorch-grad-cam
+pandas
+tqdm
