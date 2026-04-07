@@ -2,6 +2,7 @@
 
 [![Status](https://img.shields.io/badge/Status-Under--Review-orange)](https://github.com/sumawan-bmkg/ScalogramV2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19447128.svg)](https://doi.org/10.5281/zenodo.19447128)
 
 Official repository for the paper: **"Deep Learning-Based Hierarchical Multi-Task Learning for Real-Time Geomagnetic Precursor Detection and Epicenter Localization"**.
 
