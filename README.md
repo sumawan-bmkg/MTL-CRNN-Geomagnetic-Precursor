@@ -16,6 +16,8 @@ This project implements a robust, forensic-ready "Living Early Warning System" (
 ## 📊 Model Architecture
 The model utilizes a shared EfficientNet-B1 backbone for feature extraction from ULF/PC3 band (22-100 mHz) scalograms, followed by a temporal BiGRU layer and dedicated output heads.
 
+![MTL-CRNN Architecture](assets/architecture.png)
+
 ## 🚀 Getting Started
 
 ### 1. Installation
@@ -27,9 +29,8 @@ pip install -r requirements.txt
 
 ### 2. Download Dataset
 Due to size constraints (100GB+), the full HDF5 dataset and pre-trained weights are hosted on Zenodo:
-> [!IMPORTANT]
-> **[Direct Link to Zenodo Repository (Placeholder: Your--Zenodo--Link)]**
-> DOI: 10.5281/zenodo.XXXXXXX
+> [!NOTE]
+> **The full dataset is currently being uploaded to Zenodo and the official DOI link will be updated shortly.** For preliminary testing, please use the provided `sample_data.h5` in the `data/` directory.
 
 Alternatively, a small sample HDF5 is provided in `data/sample_data.h5` for quick testing.
 
@@ -52,10 +53,10 @@ If you use this work in your research, please cite:
 ```bibtex
 @article{ScalogramV2_2026,
   title={Deep Learning-Based Hierarchical Multi-Task Learning for Real-Time Geomagnetic Precursor Detection and Epicenter Localization},
-  author={Your Name and others},
+  author={Sumawan and Widjiantoro, Bambang L. and Indriawati, Katherin and Syirojudin, Muhamad},
   journal={IEEE Access},
   year={2026},
-  doi={10.1109/ACCESS.2026.XXXXXXX}
+  doi={10.1109/ACCESS.2026.XXXXXXX (To be assigned)}
 }
 ```
 
